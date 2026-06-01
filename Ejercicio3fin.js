@@ -1,0 +1,14 @@
+for(let i=2; i<=1000;i++){
+    let esPrimo=true;
+
+    for(let j = 2;j < i;j++){
+        if(i %      j===0)
+            esPrimo=false;
+      }
+    
+
+    if(esPrimo){
+    console.log("Estos son los numeros primos :"+ i)
+ }
+}
+
