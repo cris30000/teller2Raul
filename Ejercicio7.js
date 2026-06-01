@@ -13,7 +13,7 @@ for (let i = 1; i <= max; i++) {
     let linea = "";
 
     for (let j = 1; j <= i; j++) {
-        if (j > 1) {
+        if (j >1) {
             linea += " ";  
         }
         linea += j;
@@ -23,7 +23,7 @@ for (let i = 1; i <= max; i++) {
 }
 
 // Parte de abajo decrece
-/*for (let i = max - 1; i >= 1; i--) {
+for (let i = max - 1; i >= 1; i--) {
     let linea = "";
 
     for (let j = 1; j <= i; j++) {
@@ -34,9 +34,9 @@ for (let i = 1; i <= max; i++) {
     }
 
     console.log(linea);
-}*/
+}
 
-///
+/*
 for (let i = max - 1; i >= 1; i--) {
     let linea = "";
 
@@ -50,4 +50,74 @@ for (let i = max - 1; i >= 1; i--) {
     }
 
     console.log(linea);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+// Parte de arriba
+for (let i = 1; i <= max; i++) {
+    let linea = "";
+
+    for (let j = max; j >= max - i + 1; j--) {
+        if (j < max) {
+            linea += " ";
+        }
+        linea += j;
+    }
+
+    console.log(linea);
 }
+
+// Parte de abajo
+for (let i = max - 1; i >= 1; i--) {
+    let linea = "";
+
+    for (let j = max; j >= max - i + 1; j--) {
+        if (j < max) {
+            linea += " ";
+        }
+        linea += j;
+    }
+
+    console.log(linea);
+}*/

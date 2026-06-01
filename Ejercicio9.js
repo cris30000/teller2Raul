@@ -1,5 +1,5 @@
 /**
- * Diseñar un algoritmo que sume los m = 30 primeros números pares.
+ * Diseñar un algoritmo que sume los m = 30 primeros números pares.   let impar= contador*2-1;  //suma=suma+impar;
  */
 let suma=0;
 let contador=1;
@@ -8,8 +8,11 @@ let contador=1;
 
 while(contador<=30){
     let par= contador*2;
+  
     console.log("el numero es:"+par)
+    
     suma=suma+par;
+   
     contador++;
 }
-console.log("los 30 primeros numeros son:"+suma);
+console.log("los 30 primeros numeros pares son:"+suma);

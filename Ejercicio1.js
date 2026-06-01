@@ -7,6 +7,7 @@ sentencia for.
 let i=1;
 let suma=0;
 let resta=0;
+let division=1;
 
 while(i<=100){
    suma +=i;
@@ -15,3 +16,14 @@ while(i<=100){
 }
 console.log("la suma es: " +suma);
 //console.log("la resta es: " +resta);
+
+
+let i = 1;
+let division = 1;
+
+while(i <= 100){
+    division /= i;
+    i++;
+}
+
+console.log("La division es: " + division);
