@@ -23,7 +23,7 @@ for (let i = 1; i <= max; i++) {
 }
 
 // Parte de abajo decrece
-for (let i = max - 1; i >= 1; i--) {
+/*for (let i = max - 1; i >= 1; i--) {
     let linea = "";
 
     for (let j = 1; j <= i; j++) {
@@ -31,6 +31,22 @@ for (let i = max - 1; i >= 1; i--) {
             linea += " ";
         }
         linea += j;
+    }
+
+    console.log(linea);
+}*/
+
+///
+for (let i = max - 1; i >= 1; i--) {
+    let linea = "";
+
+    for (let j = 1; j <= i; j++) {
+
+        if (i % 2 == 1) {
+            linea += "* ";
+        } else {
+            linea += "$ ";
+        }
     }
 
     console.log(linea);

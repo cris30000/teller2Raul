@@ -1,5 +1,6 @@
 /**
  * Imprimir los cuadrados de los enteros de 1 a 20.
+ * cubo i*i*i*
  */
 
 for(let i =1; i<=20; i++){

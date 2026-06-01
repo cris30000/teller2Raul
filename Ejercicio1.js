@@ -6,9 +6,12 @@ sentencia for.
 
 let i=1;
 let suma=0;
+let resta=0;
 
 while(i<=100){
-    suma +=i;
+   suma +=i;
+   //resta -=i;
     i++;
 }
 console.log("la suma es: " +suma);
+//console.log("la resta es: " +resta);
