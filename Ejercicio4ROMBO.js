@@ -25,7 +25,7 @@ for (let fila = 1;fila <= num_lineas; fila++){
     asterisco = '';
 }
 
-
+/*
 // ahora hacemos la parte de abajo
 
 
@@ -46,5 +46,7 @@ for (let fila = num_lineas - 1; fila >= 1; fila--) {
 
     console.log(espacio + asterisco);
 }
+*/
 
 
+// AHORA SOLO QUE SALGA LA PARTE DERECHA DEL ROMBO

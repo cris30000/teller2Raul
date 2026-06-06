@@ -1,6 +1,6 @@
 /**
  * Sumar los números enteros de 1 a 100 mediante:
-a) sentencia do-while; b) sentencia while; c)
+
 sentencia for.
  */
 
@@ -8,16 +8,47 @@ let i=1;
 let suma=0;
 let resta=0;
 let division=1;
+let multiplicacion=1;
 
 while(i<=100){
    suma +=i;
-   //resta -=i;
+   resta -=i;
+   
     i++;
 }
 console.log("la suma es: " +suma);
-//console.log("la resta es: " +resta);
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 let i = 1;
 let division = 1;
 
@@ -26,4 +57,17 @@ while(i <= 100){
     i++;
 }
 
-console.log("La division es: " + division);
+console.log("La division es: " + division);*/
+
+/*
+let base = 2;
+let exponente = 5;
+let potencia = 1;
+let i = 1;
+
+while (i <= exponente) {
+    potencia *= base;
+    i++;
+}
+console.log("La potencia es: " + potencia);
+*/

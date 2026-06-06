@@ -1,7 +1,15 @@
 /**
  * 7.	Escribir un programa que visualice la siguiente salida:  numeros creciente y numeros decreciente
  * 
- */
+ *//* ver
+    let valor = 4;
+
+    for (let j = 1; j <= i; j++) {
+        linea += valor + " ";
+        valor--;
+    }
+    console.log(linea);
+}*/
 
 // defino a  4 como maximo  y luego empieza a disminuir
 
@@ -10,9 +18,12 @@ let max = 4;
 
 // parte de arriba hasta 4
 for (let i = 1; i <= max; i++) {
-    let linea = "";
 
-    for (let j = 1; j <= i; j++) {
+    let linea = "";
+  
+    
+        for (let j = 1; j <= i; j++)
+        {
         if (j >1) {
             linea += " ";  
         }
@@ -22,19 +33,35 @@ for (let i = 1; i <= max; i++) {
     console.log(linea);
 }
 
+
 // Parte de abajo decrece
+
+
 for (let i = max - 1; i >= 1; i--) {
     let linea = "";
-
-    for (let j = 1; j <= i; j++) {
+    
+          for (let j = 1; j <= i; j++)
+        {
+    
         if (j > 1) {
             linea += " ";
         }
         linea += j;
     }
 
+
+
     console.log(linea);
+
 }
+
+
+
+
+
+
+
+
 
 /*
 for (let i = max - 1; i >= 1; i--) {
